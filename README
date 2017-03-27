@@ -2,8 +2,10 @@
 - cd into backbone-chat/
 - npm install
 - npm install -g browserify watchify
+- run: watchify static/index.js -o static/bundle.js
+- the above command appears to hang, just leave it running
 - make a python virtualenv
-- pip install -r requirements.txt
+- then pip install -r requirements.txt
 - export FLASK_APP=app.py
 - export FLASK_DEBUG=1
 - flask run
