@@ -1,0 +1,10 @@
+- following this tut: http://adrianmejia.com/blog/2012/09/11/backbone-dot-js-for-absolute-beginners-getting-started/
+- cd into backbone-chat/
+- npm install
+- npm install -g browserify watchify
+- make a python virtualenv
+- pip install -r requirements.txt
+- export FLASK_APP=app.py
+- export FLASK_DEBUG=1
+- flask run
+- open: http://localhost:5000/
